@@ -1,7 +1,30 @@
 aid: prmeasure
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prmeasure.png
 name: prmeasure
-description: prmeasure is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  prmeasure (Precision Measurement & Control, 精实测控) is a Zhuhai, China based
+  high-tech enterprise specializing in measurement, control, and artificial
+  intelligence technologies for flexible manufacturing. The company builds
+  industrial-grade testing and control equipment for the consumer electronics,
+  automotive, and home-appliance industries, and offers consumer-level
+  customized production through a C2M (customer-to-manufacturer) model. Its
+  WowNow platform (iwownow.com) provides creative prototyping tools and flexible
+  manufacturing equipment for individuals. prmeasure was surfaced as a portfolio
+  company of the Qiming Venture Partners investment graph and added to the API
+  Evangelist network. As of this enrichment pass the company publishes a
+  corporate marketing website only, with no public developer portal, API
+  documentation, SDKs, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/prmeasure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Manufacturing
+- Industrial
+- Measurement
+- Control
+- Artificial Intelligence
+- Hardware
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,10 @@ maintainers:
 common:
 - type: Website
   url: https://prmeasure.com
+- type: DomainSecurity
+  url: security/prmeasure-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
